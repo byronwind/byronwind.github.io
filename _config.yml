@@ -1,5 +1,5 @@
 # Site settings
-title: DuduLili
+title: 读客
 header-img: img/home-bg.jpg
 email: byronwind@gmail.com
 description: "路在远方"
@@ -16,6 +16,11 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : dudukr
 
 
 # Defaults for posts
@@ -27,4 +32,4 @@ defaults:
     values:
       layout: "post"
       author: "byronwind"
-      header-img: "img/post-bg-01.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/post-bg.jpg" # We don't want posts without a header image, that whould mean white on white
